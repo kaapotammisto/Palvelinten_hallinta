@@ -1,2 +1,0 @@
-# Palvelinten_hallinta
-assignments

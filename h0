@@ -1,0 +1,26 @@
+# Palvelinten_hallinta
+A) Linux debianin asennun virtualboxiin
+- Koneena Mac Pro M2 silikonilla. Latasin arm64 version koska M2 on Apple silicon.
+- Mukautin debian vb asetukset alunperin väärin, tajusin että Terokarvinen.com löytyy tarkat ohjeet, seurasin niitä.
+-Asennuksessa kesti noin 10min
+- Terminal emulaattorissa sudo apt-get -y disc-upgrade kaikkien toimintojen päivittämiseen ja palomuurin asennus
+-Viimeisenä VirtualBox Guest additions
+
+B) Vuokraa virtuaalinen yksityispalvelin
+- Päädyin UpCloudiin. Halpa ja Suomalainen yritys.
+- Konfigurointiin 1 CPU, muistia 1gb, tallennusta 10Ggb ja sijainti Suomi. Hinta 3e/kuukausi
+
+C) Alkutoimet - sudo käyttäjä omalla nimellä, tulimuuri, päivitä ohjelmat
+-avainpalvelimen luonti ssh-keygen komennolla ja tallennettu
+-avaimen yhdistäminen UpCloudin kanssa.
+- Id yhdistetty UpCloudin ip:n kanssa ja sormenjälki luotu
+-IP osoite yhdistetty tiedettyihin hosteihin.
+
+D) Apachen asennus
+-komento sudo apt-get install apache2
+-Testasin curl komentoa ja selvisi että se ei olekkaan ladattuna. Komennolla sudo apt install -y curl homma lähti pyörimään.
+
+Lähteet:
+Medium. 2026. Teddy. Your First 5 minutes: How To Secure Your New VPS(By Not Using Root!). Luettavissa:https://tedante.medium.com/your-first-5-minutes-how-to-secure-your-new-vps-by-not-using-root-9a688798b00e. Luettu 25.10.2026
+Terokarvinen.com
+DigitalOcean. 2022. Juell K, Ellingwood J, Horcasitas J. Install Apache Web Server on Debian:Full Guide. Luettavissa: https://www.digitalocean.com/community/tutorials/how-to-install-the-apache-web-server-on-debian-11. Luettu 25.10.2026
