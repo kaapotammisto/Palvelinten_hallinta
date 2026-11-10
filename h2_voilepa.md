@@ -72,3 +72,4 @@ Lähteet:
 https://terokarvinen.com/passwordless-sudo-with-ansible/
 https://terokarvinen.com/passwordless-sudo/
 Claude - prompt. Miten aloitan Package tiedoston kirjoittamisen?
+https://www.cyberciti.biz/faq/how-to-install-htop-on-debian-linux-using-apt-get/
