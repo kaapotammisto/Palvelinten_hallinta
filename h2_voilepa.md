@@ -55,7 +55,7 @@ Sudo ilman salasanaa.
 - Ajoin playbook in uudestaan ja changed näytti nollaa.
 
 - 1D) File Kirjoita orjalle useamman rivin mittainen tiedosto Ansiblella.
-- 
+  
 - Tein roolin roles/tiedosto/tasks/main.yml
 - rooli käytti copy moduulia joka loi tiedoston /tmp/ansible-tiedosto.txt ja kirjoittaa kolmirivisen tekstin
 - teksti on kirjoitettu content: | muodossa
@@ -68,3 +68,7 @@ Sudo ilman salasanaa.
 - <img width="727" height="742" alt="Screenshot 2026-11-10 at 17 59 51" src="https://github.com/user-attachments/assets/3a2f54c2-752e-4434-9341-4706bc0d197e" />
 - <img width="727" height="460" alt="Screenshot 2026-11-10 at 18 02 44" src="https://github.com/user-attachments/assets/4d976e4a-66a6-4921-bea5-614b526ccac4" />
 
+Lähteet:
+https://terokarvinen.com/passwordless-sudo-with-ansible/
+https://terokarvinen.com/passwordless-sudo/
+Claude - prompt. Miten aloitan Package tiedoston kirjoittamisen?
