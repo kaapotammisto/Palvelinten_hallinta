@@ -53,8 +53,10 @@ Sudo ilman salasanaa.
 - Ajoin Ansible-playbook site.yml.
 - Tarkistin asennuksen komennolla dpkg -l
 - Ajoin playbook in uudestaan ja changed näytti nollaa.
+  
 
 - 1D) File Kirjoita orjalle useamman rivin mittainen tiedosto Ansiblella.
+  
   
 - Tein roolin roles/tiedosto/tasks/main.yml
 - rooli käytti copy moduulia joka loi tiedoston /tmp/ansible-tiedosto.txt ja kirjoittaa kolmirivisen tekstin
